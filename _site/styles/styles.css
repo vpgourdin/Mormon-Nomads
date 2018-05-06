@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    overflow-x: hidden;
+    font-size: 14px;
+    color: rgb(60,60,60);
+    font-family: 'Lato';
+  }
+  body{
+    background-color: #eeeeee0d;
+  }
+  img {
+    max-width : 100%;
+    height: auto;
+  }
+  p{
+    font-size: 1.1rem;
+    line-height: 1.6
+  }
+/*
+  ***HELPERS***
+*/
+/*
+  ***HEADER***
+*/
+/*
+  ***HOME***
+*/
+/*
+  ***BLOG***
+*/
+/*
+  ***SIDEBAR***
+*/
+/*
+  ***FOOTER***
+*/
+/*
+  ***FORM***
+*/
+/*
+  ***MOBILE STYLES***
+*/
