@@ -260,7 +260,7 @@ var map_config = {
 		'hover': 'MONTANA',
 		'url':'http://www.html5interactivemaps.com/',
 		'target':'same_window',
-		'upColor':'#96281B',
+		'upColor':'#EBECED',
 		'overColor':'#8fbee8',
 		'downColor':'#993366',
 		'enable':true,

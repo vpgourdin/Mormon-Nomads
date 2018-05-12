@@ -25,9 +25,9 @@ var pins_config = {
 // UTAH
 	{
 		'shape':'circle',
-		'hover':'<b><u>Moab</u></b><br><span style="color: yellow;"><img src="/images/jeepontrail.jpg" alt="Jeep"></span>',
-		'pos_X':180,
-		'pos_Y':217,
+		'hover':'<b><u>Salt Lake City Temple</u></b><br><span style="color: yellow;"><img src="/images/SLC.jpg" alt="Jeep"></span>',
+		'pos_X':160,
+		'pos_Y':175,
 		'diameter':10,
 		'outline':'#FFF',
 		'thickness':1,
@@ -40,21 +40,19 @@ var pins_config = {
 	},
 
 // MONTANA
-{
-	'shape':'circle',
-	'hover':'Butte',
-	'pos_X':168.1,
-	'pos_Y':92.25,
-	'diameter':8,
-	'outline':'#FFF',
-	'thickness':1,
-	'upColor':'#FF0000',
-	'overColor':'#FFEE88',
-	'downColor':'#00ffff',
-	'url':'#',
-	'target':'same_window',
-	'enable':true,
-},
+
+//{
+//	'shape':'circle',
+//	'hover':'Butte',
+//	'pos_Y':92.25,
+//	'diameter':8,
+//	'thickness':1,
+//	'overColor':'#FFEE88',
+//	'downColor':'#00ffff',
+//	'url':'#',
+//	'target':'same_window',
+//	'enable':true,
+//},
 
 	// {
 	// 	'shape':'circle',

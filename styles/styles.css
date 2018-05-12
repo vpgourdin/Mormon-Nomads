@@ -32,7 +32,7 @@ header nav a,
 footer nav a {
   text-decoration: none;
   padding: 0 0.7rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 400;
   color: #051f5d;
@@ -106,7 +106,7 @@ header .icon{
       height: 100%;
     }
     .item:nth-child(1) {
-      background: url('/images/SLC.jpg');
+  /*    background: url('/images/SLC.jpg');*/
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -203,6 +203,13 @@ header .icon{
 /*
   ***FOOTER***
 */
+sub-footer {
+	text-align: center;
+  padding: 0 5%;
+  min-height: 4rem;
+  background-color:#d1e6f1;
+}
+
 /*
   ***FORM***
 */
