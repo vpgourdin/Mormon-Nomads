@@ -14,7 +14,9 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link href="/styles/styles.css" rel="stylesheet">
-<link rel="stylesheet" href="/styles/stylesheet.css">
+
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
 <!-- Carousel stylesheet -->
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -53,20 +55,31 @@
 <!-- Scripts -->
 
   </head>
-  <body>
+  <body class="content">
 
-      <header class="grid-spaceBetween-middle mainNav" id="navbar">
-  <nav>
-    <a href="http://instagram.com/mornonnomads"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-    <a href="http://pinterest.com/mormonnomads"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
-    <a href="http://facebook.com/mormonnomads"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-      </nav>
+      <!--<header class="grid-spaceBetween-middle">
+  <nav class="social">
+    <a href="http://instagram.com/mornonnomads"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
+    <a href="http://pinterest.com/mormonnomads"><i class="fa fa-pinterest fa-1x" aria-hidden="true"></i></a>
+    <a href="http://facebook.com/mormonnomads"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+  </nav>
+</header> -->
+
+<header class="grid-spaceBetween-middle mainNav sticky" id="navbar">
    <nav>
       <a href="/"> Home </a>
       <a href="/about"> Our Story </a>
       <a href="/blog"> Blog </a>
+  </nav>
+  <nav>
+      <h3 class="logo">MORMON NOMADS</h3>
+  </nav>
+  <nav>
+      <a href="/photos"> Photos </a>
       <a href="/contact"> Contact Us </a>
-      <a href="/shop"> shop </a>
+      <a href="http://instagram.com/mornonnomads"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
+      <a href="http://pinterest.com/mormonnomads"><i class="fa fa-pinterest fa-1x" aria-hidden="true"></i></a>
+      <a href="http://facebook.com/mormonnomads"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
 
    </nav>
 </header>
@@ -95,17 +108,18 @@
 </header> -->
 
 
-      <div style='text-align:center;'>
+      <!-- <div style='text-align:center;'>
   <h1>Mormon Nomads</h1>
-<!--<h1 style='text-align: center;margin: 55px 0px;border-bottom: 2px solid #666; display:inline-block;padding-bottom:10px'>Mormon Nomads</h1>
---></div>
+<h1 style='text-align: center;margin: 55px 0px;border-bottom: 2px solid #666; display:inline-block;padding-bottom:10px'>Mormon Nomads</h1>
+</div> -->
+
     <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <div class="carousel-caption">
-                  <img src="/images/SLC.jpg">
+                  <!--<img src="/images/SLC.jpg"> -->
                   <h3>Salt Lake City Temple</h3>
                   <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </div>
@@ -304,6 +318,25 @@ $('#carouselFade').carousel();
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+}
+}
+</script>
 
 
   </body>
