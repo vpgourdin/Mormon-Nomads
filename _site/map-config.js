@@ -278,7 +278,7 @@ var map_config = {
 	},
 	'st_28':{
 		'hover': 'NEVADA',
-		'url':'http://www.html5interactivemaps.com/',
+		'url':'https://www.lds.org/temples/map?lang=eng',
 		'target':'same_window',
 		'upColor':'#EBECED',
 		'overColor':'#8fbee8',

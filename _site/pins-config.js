@@ -22,22 +22,56 @@ var pins_config = {
 	//  	'enable':true,//true/false to enable/disable this pin
 	//  },
 
-// UTAH
+// UTAH Salt Lake City Temple
 	{
 		'shape':'circle',
-		'hover':'<b><u>Salt Lake City Temple</u></b><br><span style="color: yellow;"><img src="/images/SLC.jpg" alt="Jeep"></span>',
-		'pos_X':160,
-		'pos_Y':175,
-		'diameter':10,
+		'hover':'<b><u>Salt Lake City Temple</u></b><br><span style="color: yellow;"><img src="/images/SLC.jpg" alt="Salt Lake City UT Temple"></span>',
+		'pos_X':163,
+		'pos_Y':178,
+		'diameter':3,
 		'outline':'#FFF',
 		'thickness':1,
 		'upColor':'#FF0000',
 		'overColor':'#FFEE88',
 		'downColor':'#00ffff',
-		'url':'#',
-		'target':'same_window',
+		'url':'https://www.google.com/maps/search/Salt+Lake+Temple+50+W+North+Temple+StSalt+Lake+City+UT++84150-9709/@40.7705943,-111.8936855,17z/data=!3m1!4b1',
+		'target':'new_window',
 		'enable':true,
 	},
+
+	// NEVADA Reno Temple
+		{
+			'shape':'circle',
+			'hover':'<b><u>Reno Nevada Temple</u></b><br><span style="color: yellow;"><img src="/images" alt="Reno NV Temple"></span>',
+			'pos_X':66,
+			'pos_Y':172,
+			'diameter':3,
+			'outline':'#FFF',
+			'thickness':1,
+			'upColor':'#FF0000',
+			'overColor':'#FFEE88',
+			'downColor':'#00ffff',
+			'url':'https://www.google.com/maps/place/Reno+Nevada+Temple/@39.5346442,-119.9010626,17z/data=!3m1!4b1!4m5!3m4!1s0x80994436bbb2934f:0x3fac1ba77665c6a1!8m2!3d39.5346442!4d-119.8988739',
+			'target':'new_window',
+			'enable':true,
+		},
+
+		// NEVADA Las Vegas Temple
+			{
+				'shape':'circle',
+				'hover':'<b><u>Las Vegas Nevada Temple</u></b><br><span style="color: yellow;"><img src="/images/lasvegas-temple.jpg" alt="Las Vegas NV Temple"></span>',
+				'pos_X':115,
+				'pos_Y':235,
+				'diameter':3,
+				'outline':'#FFF',
+				'thickness':1,
+				'upColor':'#FF0000',
+				'overColor':'#FFEE88',
+				'downColor':'#00ffff',
+				'url':'https://www.google.com/maps/place/Las+Vegas+Nevada+Temple/@36.1746273,-115.0221855,17z/data=!3m1!4b1!4m5!3m4!1s0x80c8dbf5016ecb4d:0x21f43e3941f7e1b8!8m2!3d36.1746273!4d-115.0199968',
+				'target':'new_window',
+				'enable':true,
+			},
 
 // MONTANA
 
