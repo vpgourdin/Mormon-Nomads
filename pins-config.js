@@ -28,7 +28,7 @@ var pins_config = {
 		'hover':'<b><u>Salt Lake City Temple</u></b><br><span style="color: yellow;"><img src="/images/SLC.jpg" alt="Salt Lake City UT Temple"></span>',
 		'pos_X':163,
 		'pos_Y':178,
-		'diameter':3,
+		'diameter':5,
 		'outline':'#FFF',
 		'thickness':1,
 		'upColor':'#FF0000',
